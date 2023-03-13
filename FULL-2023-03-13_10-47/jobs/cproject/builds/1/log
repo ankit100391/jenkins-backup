@@ -1,0 +1,27 @@
+Started by user [8mha:////4DYJckODaybfN+fQ0/Y+Sx99RZZv9VT/NsZQZMPogIcXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/cproject
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository git@github.com:ankit100391/C-project-2.git
+ > git init /var/lib/jenkins/workspace/cproject # timeout=10
+Fetching upstream changes from git@github.com:ankit100391/C-project-2.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.1'
+ > git fetch --tags --force --progress -- git@github.com:ankit100391/C-project-2.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:ankit100391/C-project-2.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 83e7fd871f3e3e6ad2571ebbb33160a60837df3a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83e7fd871f3e3e6ad2571ebbb33160a60837df3a # timeout=10
+Commit message: "Update main.c"
+First time build. Skipping changelog.
+[cproject] $ /bin/sh -xe /tmp/jenkins8583872164510082476.sh
++ cd /var/lib/jenkins/workspace
++ main
+/tmp/jenkins8583872164510082476.sh: line 3: main: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

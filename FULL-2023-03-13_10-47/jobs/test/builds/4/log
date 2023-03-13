@@ -1,0 +1,8 @@
+Started by user [8mha:////4DYJckODaybfN+fQ0/Y+Sx99RZZv9VT/NsZQZMPogIcXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins3910986957689713957.sh
++ sudo mv '/var/lib/jenkins/FULL-2023*' /home/jenkins/jenkins-backup
+mv: cannot stat ‘/var/lib/jenkins/FULL-2023*’: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
