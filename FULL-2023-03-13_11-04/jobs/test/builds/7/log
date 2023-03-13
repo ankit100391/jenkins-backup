@@ -1,0 +1,14 @@
+Started by user [8mha:////4DYJckODaybfN+fQ0/Y+Sx99RZZv9VT/NsZQZMPogIcXAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/bash /tmp/jenkins2554275357406877144.sh
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+Everything up-to-date
+[test] $ /bin/sh -xe /tmp/jenkins1475375049078959828.sh
++ sudo rm -rf '/var/lib/jenkins/FULL-2023*'
+Finished: SUCCESS
